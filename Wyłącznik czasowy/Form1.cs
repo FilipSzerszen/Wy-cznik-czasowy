@@ -78,7 +78,6 @@ namespace Wyłącznik_czasowy
             Harmonogram[6] = (byte)DateTime.Now.Hour;
             Harmonogram[7] = (byte)DateTime.Now.Minute;
             Harmonogram[8] = (byte)DateTime.Now.Second;
-
             Harmonogram[9] = 0;
 
             Zapisz_dane();
@@ -286,17 +285,7 @@ namespace Wyłącznik_czasowy
         string Wschod_zachod()
         {
             int temp;
-            double wiek;
-            double a;
-            double b;
-            double c;
-            double d;
-            double f;
-            double g;
-            double h;
-            double rad;
-            double w;
-            double z;
+            double wiek,a,b,c, d,f, g,h,rad,w,z; //z instrukcji obliczania z internetu
 
             wiek = 367 * Convert.ToInt32(DateTime.Now.Year.ToString());
             temp = 367 * Convert.ToInt32(DateTime.Now.Month.ToString());
@@ -325,7 +314,6 @@ namespace Wyłącznik_czasowy
                 w += 1;
                 z += 1;
             }
-
             return "Słońce wschodzi o "+(int)w+":"+ (int)((w%1)*60)+", zachodzi o " + (int)z + ":" + (int)((z % 1) * 60);
         }
 
@@ -343,8 +331,7 @@ namespace Wyłącznik_czasowy
             return "Teoretyczny czas pracy na pełnej baterii: " + (int)(4400/energia) + "dni (" + energia + "mAh/dzień)"; 
         }
 
-
-
+        #region Komfortowe zaznaczanie godzin bez klikania
         private void cb0_MouseEnter(object sender, EventArgs e) { if (cb0.Checked) cb0.Checked = false; else cb0.Checked = true; }
         private void cb1_MouseEnter(object sender, EventArgs e) { if (cb1.Checked) cb1.Checked = false; else cb1.Checked = true; }
         private void cb2_MouseEnter(object sender, EventArgs e) { if (cb2.Checked) cb2.Checked = false; else cb2.Checked = true; }
@@ -393,7 +380,6 @@ namespace Wyłącznik_czasowy
         private void cb45_MouseEnter(object sender, EventArgs e) { if (cb45.Checked) cb45.Checked = false; else cb45.Checked = true; }
         private void cb46_MouseEnter(object sender, EventArgs e) { if (cb46.Checked) cb46.Checked = false; else cb46.Checked = true; }
         private void cb47_MouseEnter(object sender, EventArgs e) { if (cb47.Checked) cb47.Checked = false; else cb47.Checked = true; }
-
-        
+        #endregion
     }
 }
