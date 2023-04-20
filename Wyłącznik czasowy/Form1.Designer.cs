@@ -144,8 +144,9 @@ namespace Wyłącznik_czasowy
             this.zegar_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.zegar_text.Location = new System.Drawing.Point(17, 25);
             this.zegar_text.Name = "zegar_text";
-            this.zegar_text.Size = new System.Drawing.Size(0, 29);
+            this.zegar_text.Size = new System.Drawing.Size(424, 29);
             this.zegar_text.TabIndex = 1;
+            this.zegar_text.Text = "informacja o zachodzie i wschodzie";
             this.zegar_text.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
@@ -196,7 +197,7 @@ namespace Wyłącznik_czasowy
             this.cb0.Size = new System.Drawing.Size(15, 14);
             this.cb0.TabIndex = 6;
             this.cb0.UseVisualStyleBackColor = true;
-            this.cb0.MouseEnter += new System.EventHandler(this.cb0_MouseEnter);
+            this.cb0.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb1
             // 
@@ -206,7 +207,7 @@ namespace Wyłącznik_czasowy
             this.cb1.Size = new System.Drawing.Size(15, 14);
             this.cb1.TabIndex = 7;
             this.cb1.UseVisualStyleBackColor = true;
-            this.cb1.MouseEnter += new System.EventHandler(this.cb1_MouseEnter);
+            this.cb1.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label2
             // 
@@ -234,7 +235,7 @@ namespace Wyłącznik_czasowy
             this.cb3.Size = new System.Drawing.Size(15, 14);
             this.cb3.TabIndex = 10;
             this.cb3.UseVisualStyleBackColor = true;
-            this.cb3.MouseEnter += new System.EventHandler(this.cb3_MouseEnter);
+            this.cb3.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb2
             // 
@@ -244,7 +245,7 @@ namespace Wyłącznik_czasowy
             this.cb2.Size = new System.Drawing.Size(15, 14);
             this.cb2.TabIndex = 9;
             this.cb2.UseVisualStyleBackColor = true;
-            this.cb2.MouseEnter += new System.EventHandler(this.cb2_MouseEnter);
+            this.cb2.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label4
             // 
@@ -263,7 +264,7 @@ namespace Wyłącznik_czasowy
             this.cb5.Size = new System.Drawing.Size(15, 14);
             this.cb5.TabIndex = 13;
             this.cb5.UseVisualStyleBackColor = true;
-            this.cb5.MouseEnter += new System.EventHandler(this.cb5_MouseEnter);
+            this.cb5.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb4
             // 
@@ -273,7 +274,7 @@ namespace Wyłącznik_czasowy
             this.cb4.Size = new System.Drawing.Size(15, 14);
             this.cb4.TabIndex = 12;
             this.cb4.UseVisualStyleBackColor = true;
-            this.cb4.MouseEnter += new System.EventHandler(this.cb4_MouseEnter);
+            this.cb4.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label5
             // 
@@ -292,7 +293,7 @@ namespace Wyłącznik_czasowy
             this.cb11.Size = new System.Drawing.Size(15, 14);
             this.cb11.TabIndex = 22;
             this.cb11.UseVisualStyleBackColor = true;
-            this.cb11.MouseEnter += new System.EventHandler(this.cb11_MouseEnter);
+            this.cb11.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb10
             // 
@@ -302,7 +303,7 @@ namespace Wyłącznik_czasowy
             this.cb10.Size = new System.Drawing.Size(15, 14);
             this.cb10.TabIndex = 21;
             this.cb10.UseVisualStyleBackColor = true;
-            this.cb10.MouseEnter += new System.EventHandler(this.cb10_MouseEnter);
+            this.cb10.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label6
             // 
@@ -321,7 +322,7 @@ namespace Wyłącznik_czasowy
             this.cb9.Size = new System.Drawing.Size(15, 14);
             this.cb9.TabIndex = 19;
             this.cb9.UseVisualStyleBackColor = true;
-            this.cb9.MouseEnter += new System.EventHandler(this.cb9_MouseEnter);
+            this.cb9.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb8
             // 
@@ -331,7 +332,7 @@ namespace Wyłącznik_czasowy
             this.cb8.Size = new System.Drawing.Size(15, 14);
             this.cb8.TabIndex = 18;
             this.cb8.UseVisualStyleBackColor = true;
-            this.cb8.MouseEnter += new System.EventHandler(this.cb8_MouseEnter);
+            this.cb8.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label7
             // 
@@ -350,7 +351,7 @@ namespace Wyłącznik_czasowy
             this.cb7.Size = new System.Drawing.Size(15, 14);
             this.cb7.TabIndex = 16;
             this.cb7.UseVisualStyleBackColor = true;
-            this.cb7.MouseEnter += new System.EventHandler(this.cb7_MouseEnter);
+            this.cb7.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb6
             // 
@@ -360,7 +361,7 @@ namespace Wyłącznik_czasowy
             this.cb6.Size = new System.Drawing.Size(15, 14);
             this.cb6.TabIndex = 15;
             this.cb6.UseVisualStyleBackColor = true;
-            this.cb6.MouseEnter += new System.EventHandler(this.cb6_MouseEnter);
+            this.cb6.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label8
             // 
@@ -379,7 +380,7 @@ namespace Wyłącznik_czasowy
             this.cb13.Size = new System.Drawing.Size(15, 14);
             this.cb13.TabIndex = 25;
             this.cb13.UseVisualStyleBackColor = true;
-            this.cb13.MouseEnter += new System.EventHandler(this.cb13_MouseEnter);
+            this.cb13.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb12
             // 
@@ -389,7 +390,7 @@ namespace Wyłącznik_czasowy
             this.cb12.Size = new System.Drawing.Size(15, 14);
             this.cb12.TabIndex = 24;
             this.cb12.UseVisualStyleBackColor = true;
-            this.cb12.MouseEnter += new System.EventHandler(this.cb12_MouseEnter);
+            this.cb12.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label11
             // 
@@ -408,7 +409,7 @@ namespace Wyłącznik_czasowy
             this.cb23.Size = new System.Drawing.Size(15, 14);
             this.cb23.TabIndex = 40;
             this.cb23.UseVisualStyleBackColor = true;
-            this.cb23.MouseEnter += new System.EventHandler(this.cb23_MouseEnter);
+            this.cb23.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb22
             // 
@@ -418,7 +419,7 @@ namespace Wyłącznik_czasowy
             this.cb22.Size = new System.Drawing.Size(15, 14);
             this.cb22.TabIndex = 39;
             this.cb22.UseVisualStyleBackColor = true;
-            this.cb22.MouseEnter += new System.EventHandler(this.cb22_MouseEnter);
+            this.cb22.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label12
             // 
@@ -437,7 +438,7 @@ namespace Wyłącznik_czasowy
             this.cb21.Size = new System.Drawing.Size(15, 14);
             this.cb21.TabIndex = 37;
             this.cb21.UseVisualStyleBackColor = true;
-            this.cb21.MouseEnter += new System.EventHandler(this.cb21_MouseEnter);
+            this.cb21.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb20
             // 
@@ -447,7 +448,7 @@ namespace Wyłącznik_czasowy
             this.cb20.Size = new System.Drawing.Size(15, 14);
             this.cb20.TabIndex = 36;
             this.cb20.UseVisualStyleBackColor = true;
-            this.cb20.MouseEnter += new System.EventHandler(this.cb20_MouseEnter);
+            this.cb20.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label13
             // 
@@ -466,7 +467,7 @@ namespace Wyłącznik_czasowy
             this.cb19.Size = new System.Drawing.Size(15, 14);
             this.cb19.TabIndex = 34;
             this.cb19.UseVisualStyleBackColor = true;
-            this.cb19.MouseEnter += new System.EventHandler(this.cb19_MouseEnter);
+            this.cb19.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb18
             // 
@@ -476,7 +477,7 @@ namespace Wyłącznik_czasowy
             this.cb18.Size = new System.Drawing.Size(15, 14);
             this.cb18.TabIndex = 33;
             this.cb18.UseVisualStyleBackColor = true;
-            this.cb18.MouseEnter += new System.EventHandler(this.cb18_MouseEnter);
+            this.cb18.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label14
             // 
@@ -495,7 +496,7 @@ namespace Wyłącznik_czasowy
             this.cb17.Size = new System.Drawing.Size(15, 14);
             this.cb17.TabIndex = 31;
             this.cb17.UseVisualStyleBackColor = true;
-            this.cb17.MouseEnter += new System.EventHandler(this.cb17_MouseEnter);
+            this.cb17.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb16
             // 
@@ -505,7 +506,7 @@ namespace Wyłącznik_czasowy
             this.cb16.Size = new System.Drawing.Size(15, 14);
             this.cb16.TabIndex = 30;
             this.cb16.UseVisualStyleBackColor = true;
-            this.cb16.MouseEnter += new System.EventHandler(this.cb16_MouseEnter);
+            this.cb16.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label15
             // 
@@ -524,7 +525,7 @@ namespace Wyłącznik_czasowy
             this.cb15.Size = new System.Drawing.Size(15, 14);
             this.cb15.TabIndex = 28;
             this.cb15.UseVisualStyleBackColor = true;
-            this.cb15.MouseEnter += new System.EventHandler(this.cb15_MouseEnter);
+            this.cb15.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb14
             // 
@@ -534,7 +535,7 @@ namespace Wyłącznik_czasowy
             this.cb14.Size = new System.Drawing.Size(15, 14);
             this.cb14.TabIndex = 27;
             this.cb14.UseVisualStyleBackColor = true;
-            this.cb14.MouseEnter += new System.EventHandler(this.cb14_MouseEnter);
+            this.cb14.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label16
             // 
@@ -553,7 +554,7 @@ namespace Wyłącznik_czasowy
             this.cb47.Size = new System.Drawing.Size(15, 14);
             this.cb47.TabIndex = 79;
             this.cb47.UseVisualStyleBackColor = true;
-            this.cb47.MouseEnter += new System.EventHandler(this.cb47_MouseEnter);
+            this.cb47.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb46
             // 
@@ -563,7 +564,7 @@ namespace Wyłącznik_czasowy
             this.cb46.Size = new System.Drawing.Size(15, 14);
             this.cb46.TabIndex = 78;
             this.cb46.UseVisualStyleBackColor = true;
-            this.cb46.MouseEnter += new System.EventHandler(this.cb46_MouseEnter);
+            this.cb46.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label17
             // 
@@ -582,7 +583,7 @@ namespace Wyłącznik_czasowy
             this.cb45.Size = new System.Drawing.Size(15, 14);
             this.cb45.TabIndex = 76;
             this.cb45.UseVisualStyleBackColor = true;
-            this.cb45.MouseEnter += new System.EventHandler(this.cb45_MouseEnter);
+            this.cb45.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb44
             // 
@@ -592,7 +593,7 @@ namespace Wyłącznik_czasowy
             this.cb44.Size = new System.Drawing.Size(15, 14);
             this.cb44.TabIndex = 75;
             this.cb44.UseVisualStyleBackColor = true;
-            this.cb44.MouseEnter += new System.EventHandler(this.cb44_MouseEnter);
+            this.cb44.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label18
             // 
@@ -611,7 +612,7 @@ namespace Wyłącznik_czasowy
             this.cb43.Size = new System.Drawing.Size(15, 14);
             this.cb43.TabIndex = 73;
             this.cb43.UseVisualStyleBackColor = true;
-            this.cb43.MouseEnter += new System.EventHandler(this.cb43_MouseEnter);
+            this.cb43.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb42
             // 
@@ -621,7 +622,7 @@ namespace Wyłącznik_czasowy
             this.cb42.Size = new System.Drawing.Size(15, 14);
             this.cb42.TabIndex = 72;
             this.cb42.UseVisualStyleBackColor = true;
-            this.cb42.MouseEnter += new System.EventHandler(this.cb42_MouseEnter);
+            this.cb42.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label19
             // 
@@ -640,7 +641,7 @@ namespace Wyłącznik_czasowy
             this.cb41.Size = new System.Drawing.Size(15, 14);
             this.cb41.TabIndex = 70;
             this.cb41.UseVisualStyleBackColor = true;
-            this.cb41.MouseEnter += new System.EventHandler(this.cb41_MouseEnter);
+            this.cb41.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb40
             // 
@@ -650,7 +651,7 @@ namespace Wyłącznik_czasowy
             this.cb40.Size = new System.Drawing.Size(15, 14);
             this.cb40.TabIndex = 69;
             this.cb40.UseVisualStyleBackColor = true;
-            this.cb40.MouseEnter += new System.EventHandler(this.cb40_MouseEnter);
+            this.cb40.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label20
             // 
@@ -669,7 +670,7 @@ namespace Wyłącznik_czasowy
             this.cb39.Size = new System.Drawing.Size(15, 14);
             this.cb39.TabIndex = 67;
             this.cb39.UseVisualStyleBackColor = true;
-            this.cb39.MouseEnter += new System.EventHandler(this.cb39_MouseEnter);
+            this.cb39.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb38
             // 
@@ -679,7 +680,7 @@ namespace Wyłącznik_czasowy
             this.cb38.Size = new System.Drawing.Size(15, 14);
             this.cb38.TabIndex = 66;
             this.cb38.UseVisualStyleBackColor = true;
-            this.cb38.MouseEnter += new System.EventHandler(this.cb38_MouseEnter);
+            this.cb38.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label21
             // 
@@ -698,7 +699,7 @@ namespace Wyłącznik_czasowy
             this.cb37.Size = new System.Drawing.Size(15, 14);
             this.cb37.TabIndex = 64;
             this.cb37.UseVisualStyleBackColor = true;
-            this.cb37.MouseEnter += new System.EventHandler(this.cb37_MouseEnter);
+            this.cb37.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb36
             // 
@@ -708,7 +709,7 @@ namespace Wyłącznik_czasowy
             this.cb36.Size = new System.Drawing.Size(15, 14);
             this.cb36.TabIndex = 63;
             this.cb36.UseVisualStyleBackColor = true;
-            this.cb36.MouseEnter += new System.EventHandler(this.cb36_MouseEnter);
+            this.cb36.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label22
             // 
@@ -727,7 +728,7 @@ namespace Wyłącznik_czasowy
             this.cb35.Size = new System.Drawing.Size(15, 14);
             this.cb35.TabIndex = 61;
             this.cb35.UseVisualStyleBackColor = true;
-            this.cb35.MouseEnter += new System.EventHandler(this.cb35_MouseEnter);
+            this.cb35.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb34
             // 
@@ -737,7 +738,7 @@ namespace Wyłącznik_czasowy
             this.cb34.Size = new System.Drawing.Size(15, 14);
             this.cb34.TabIndex = 60;
             this.cb34.UseVisualStyleBackColor = true;
-            this.cb34.MouseEnter += new System.EventHandler(this.cb34_MouseEnter);
+            this.cb34.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label23
             // 
@@ -756,7 +757,7 @@ namespace Wyłącznik_czasowy
             this.cb33.Size = new System.Drawing.Size(15, 14);
             this.cb33.TabIndex = 58;
             this.cb33.UseVisualStyleBackColor = true;
-            this.cb33.MouseEnter += new System.EventHandler(this.cb33_MouseEnter);
+            this.cb33.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb32
             // 
@@ -766,7 +767,7 @@ namespace Wyłącznik_czasowy
             this.cb32.Size = new System.Drawing.Size(15, 14);
             this.cb32.TabIndex = 57;
             this.cb32.UseVisualStyleBackColor = true;
-            this.cb32.MouseEnter += new System.EventHandler(this.cb32_MouseEnter);
+            this.cb32.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label24
             // 
@@ -785,7 +786,7 @@ namespace Wyłącznik_czasowy
             this.cb31.Size = new System.Drawing.Size(15, 14);
             this.cb31.TabIndex = 55;
             this.cb31.UseVisualStyleBackColor = true;
-            this.cb31.MouseEnter += new System.EventHandler(this.cb31_MouseEnter);
+            this.cb31.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb30
             // 
@@ -795,7 +796,7 @@ namespace Wyłącznik_czasowy
             this.cb30.Size = new System.Drawing.Size(15, 14);
             this.cb30.TabIndex = 54;
             this.cb30.UseVisualStyleBackColor = true;
-            this.cb30.MouseEnter += new System.EventHandler(this.cb30_MouseEnter);
+            this.cb30.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label25
             // 
@@ -814,7 +815,7 @@ namespace Wyłącznik_czasowy
             this.cb29.Size = new System.Drawing.Size(15, 14);
             this.cb29.TabIndex = 52;
             this.cb29.UseVisualStyleBackColor = true;
-            this.cb29.MouseEnter += new System.EventHandler(this.cb29_MouseEnter);
+            this.cb29.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb28
             // 
@@ -824,7 +825,7 @@ namespace Wyłącznik_czasowy
             this.cb28.Size = new System.Drawing.Size(15, 14);
             this.cb28.TabIndex = 51;
             this.cb28.UseVisualStyleBackColor = true;
-            this.cb28.MouseEnter += new System.EventHandler(this.cb28_MouseEnter);
+            this.cb28.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label26
             // 
@@ -843,7 +844,7 @@ namespace Wyłącznik_czasowy
             this.cb27.Size = new System.Drawing.Size(15, 14);
             this.cb27.TabIndex = 49;
             this.cb27.UseVisualStyleBackColor = true;
-            this.cb27.MouseEnter += new System.EventHandler(this.cb27_MouseEnter);
+            this.cb27.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb26
             // 
@@ -853,7 +854,7 @@ namespace Wyłącznik_czasowy
             this.cb26.Size = new System.Drawing.Size(15, 14);
             this.cb26.TabIndex = 48;
             this.cb26.UseVisualStyleBackColor = true;
-            this.cb26.MouseEnter += new System.EventHandler(this.cb26_MouseEnter);
+            this.cb26.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // label27
             // 
@@ -872,7 +873,7 @@ namespace Wyłącznik_czasowy
             this.cb25.Size = new System.Drawing.Size(15, 14);
             this.cb25.TabIndex = 46;
             this.cb25.UseVisualStyleBackColor = true;
-            this.cb25.MouseEnter += new System.EventHandler(this.cb25_MouseEnter);
+            this.cb25.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // cb24
             // 
@@ -882,7 +883,7 @@ namespace Wyłącznik_czasowy
             this.cb24.Size = new System.Drawing.Size(15, 14);
             this.cb24.TabIndex = 45;
             this.cb24.UseVisualStyleBackColor = true;
-            this.cb24.MouseEnter += new System.EventHandler(this.cb24_MouseEnter);
+            this.cb24.MouseEnter += new System.EventHandler(this.MouseEnter);
             // 
             // gBox1
             // 
